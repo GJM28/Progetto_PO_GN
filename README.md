@@ -12,14 +12,24 @@ In particolare:
 
 ## Rotte dell'applicazione
 All'interno dell'applicazione è possibili andare ad effettuare quattro richieste GET(metodo che viene utilizzato principalmente per richiedere una risorsa al server) e una richiesta POST(nasce invece con l'idea di creare o modificare dei dati sul server).
+
 ![Alt Text](IMMAGINI PO/get_data.PNG)
+
 ![Alt Text](IMMAGINI PO/get_metadata.PNG)
+
 ![Alt Text](IMMAGINI PO/metadata_results.PNG)
+
 ![Alt Text](IMMAGINI PO/get_stats.PNG)
+
 ![Alt Text](IMMAGINI PO/stats_result.PNG)
+
 ![Alt Text](IMMAGINI PO/get_top10.PNG)
+
 ![Alt Text](IMMAGINI PO/top10_results.PNG)
+
 ![Alt Text](IMMAGINI PO/get_last10.PNG)
+
 ![Alt Text](IMMAGINI PO/get_top10_results.PNG)
+
 ![Alt Text](IMMAGINI PO/getbrakets.PNG)
 
