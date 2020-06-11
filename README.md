@@ -4,4 +4,4 @@ In seguito ad una richiesta, l'applicazione scarica un JSON. Nel file è present
 ![Alt Text](JSON.PNG) 
 
 Una volta prese queste informazioni il programma andava ad effettuare un parsing dei dati in modo da ottenere solamente i parametri che servivano a noi ("name" e "followers_count").
-![Alt Text](JSON.PNG) 
+![Alt Text](JSONParsing.PNG) 
