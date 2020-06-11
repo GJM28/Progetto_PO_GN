@@ -29,7 +29,7 @@ All'interno dell'applicazione è possibili andare ad effettuare quattro richiest
 
 ![Alt Text](get_last10.PNG)
 
-![Alt Text](get_top10_results.PNG)
+![Alt Text](last10_results.PNG)
 
 ![Alt Text](getbrakets.PNG)
 
