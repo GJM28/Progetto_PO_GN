@@ -13,10 +13,14 @@ In particolare:
 ## Rotte dell'applicazione
 All'interno dell'applicazione è possibili andare ad effettuare quattro richieste GET(metodo che viene utilizzato principalmente per richiedere una risorsa al server) e una richiesta POST(nasce invece con l'idea di creare o modificare dei dati sul server).
 
+La prima richiesta GET che andiamo a vedere è quella che permette di restituire tutti i dati parsati del file JSON.
 ![Alt Text](get_data.PNG)
 
+Una rotta GET che siamo andati ad implementare è stata la seguente.
 ![Alt Text](get_metadata.PNG)
-
+Quest'ultima permette di ottenere i metadati presenti nel dataset. In particolare:
+* **name** di tipo String
+* **followers_count** di tipo Integer
 ![Alt Text](metadata_results.PNG)
 
 ![Alt Text](get_stats.PNG)
