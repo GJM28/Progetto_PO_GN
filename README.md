@@ -53,6 +53,6 @@ Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti c
   </tr>
  </table>
  
- 
+
 ![Alt Text](getbrakets.PNG)
 
