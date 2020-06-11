@@ -16,12 +16,17 @@ All'interno dell'applicazione è possibili andare ad effettuare quattro richiest
 La prima richiesta GET che andiamo a vedere è quella che permette di restituire tutti i dati parsati del file JSON.
 ![Alt Text](get_data.PNG)
 
-Una rotta GET che siamo andati ad implementare è stata la seguente.
-![Alt Text](get_metadata.PNG)
-Quest'ultima permette di ottenere i metadati presenti nel dataset. In particolare:
+Una rotta GET che siamo andati ad implementare è stata la seguente. Quest'ultima permette di ottenere i metadati presenti nel dataset. In particolare:
 * **name** di tipo String
 * **followers_count** di tipo Integer
-![Alt Text](metadata_results.PNG)
+<p align="center">
+  <img src="get_metadata.PNG">
+</p>
+<p align="center">
+  <img src="metadata_results.PNG">
+</p>
+
+
 
 ![Alt Text](get_stats.PNG)
 
