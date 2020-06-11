@@ -41,7 +41,7 @@ In questo caso le statistiche riguardano:
   <img src="stats_result.PNG">
 </p>
 
-Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti che hanno più follower
+Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti che hanno più follower o ,viceversa, gli ultimi 10 utenti che hanno meno follower. Più precisamente, in questa rotta si deve specificare attraverso il campo field, che classifica si vuole andare a vedere. In caso di campo errato o nullo viene restituito un errore. 
 <p align="center">
   <img src="get_top10.PNG">
 </p>
@@ -49,12 +49,10 @@ questo è il risultato che viene restituito
 <p align="center">
   <img src="top10_results.PNG">
 </p>
-
-Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti che hanno più follower
-<p align="center">
+<p align="right">
   <img src="get_last10.PNG">
 </p>
-<p align="center">
+<p align="right">
   <img src="last10_results.PNG">
 </p>
 
