@@ -14,7 +14,9 @@ In particolare:
 All'interno dell'applicazione è possibili andare ad effettuare quattro richieste GET(metodo che viene utilizzato principalmente per richiedere una risorsa al server) e una richiesta POST(nasce invece con l'idea di creare o modificare dei dati sul server).
 
 La prima richiesta GET che andiamo a vedere è quella che permette di restituire tutti i dati parsati del file JSON.
-![Alt Text](get_data.PNG)
+<p align="center">
+  <img src="get_data.PNG">
+</p>
 
 Una rotta GET che siamo andati ad implementare è stata la seguente. Quest'ultima permette di ottenere i metadati presenti nel dataset. In particolare:
 * **name** di tipo String
@@ -26,19 +28,35 @@ Una rotta GET che siamo andati ad implementare è stata la seguente. Quest'ultim
   <img src="metadata_results.PNG">
 </p>
 
+Le statistiche possono essere effettuate soltanto sul campo followers_count.
+<p align="center">
+  <img src="get_stats.PNG">
+</p>
+In questo caso le statistiche riguardano:
+* **Min e Max** indicano le persone che hanno il numero di follower più alto o più basso
+* **Media_follower** indica una media di tutti i follower presenti nella lista
+* **Somma_tot_follower** indica la somma totate di tutti i follower 
+* **Deviazione_standard** dà un’idea di come siano distribuiti i dati nel campione rispetto alla media. Detto in un altro modo, consente di sapere se la media è affidabile per dare una rappresentazione significativa dei dati.
+<p align="center">
+  <img src="stats_result.PNG">
+</p>
 
+Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti che hanno più follower
+<p align="center">
+  <img src="get_top10.PNG">
+</p>
+questo è il risultato che viene restituito
+<p align="center">
+  <img src="top10_results.PNG">
+</p>
 
-![Alt Text](get_stats.PNG)
-
-![Alt Text](stats_result.PNG)
-
-![Alt Text](get_top10.PNG)
-
-![Alt Text](top10_results.PNG)
-
-![Alt Text](get_last10.PNG)
-
-![Alt Text](last10_results.PNG)
+Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti che hanno più follower
+<p align="center">
+  <img src="get_last10.PNG">
+</p>
+<p align="center">
+  <img src="last10_results.PNG">
+</p>
 
 ![Alt Text](getbrakets.PNG)
 
