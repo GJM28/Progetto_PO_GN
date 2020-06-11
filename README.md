@@ -32,11 +32,14 @@ Le statistiche possono essere effettuate soltanto sul campo followers_count.
 <p align="center">
   <img src="get_stats.PNG">
 </p>
+
 In questo caso le statistiche riguardano:
-* **Min e Max** indicano le persone che hanno il numero di follower più alto o più basso
+* **Min** indicano le persone che hanno il numero di follower più basso
+* **Max** indicano le persone che hanno il numero di follower più alto
 * **Media_follower** indica una media di tutti i follower presenti nella lista
 * **Somma_tot_follower** indica la somma totate di tutti i follower 
-* **Deviazione_standard** dà un’idea di come siano distribuiti i dati nel campione rispetto alla media. Detto in un altro modo, consente di sapere se la media è affidabile per dare una rappresentazione significativa dei dati.
+* **Deviazione_standard** dà un’idea di come siano distribuiti i dati nel campione rispetto alla media. Detto in un altro modo, consente    di sapere se la media è affidabile per dare una rappresentazione significativa dei dati.
+
 <p align="center">
   <img src="stats_result.PNG">
 </p>
