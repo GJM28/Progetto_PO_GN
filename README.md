@@ -63,3 +63,5 @@ Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti c
 ## UML
 ![Alt Text](UserDatagram.PNG)
 
+![Alt Text](classdiagram.PNG)
+
