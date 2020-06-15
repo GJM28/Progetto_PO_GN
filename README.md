@@ -61,10 +61,11 @@ Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti c
 
 
 ## UML
+## User Diagram
 ![Alt Text](UserDatagram.PNG)
-
+## Class Diagram
 ![Alt Text](classdiagram.PNG) 
-
+## Sequence Diagram
 ![Alt Text](ranking.png) 
 
 ![Alt Text](getstatsonobject.png) 
