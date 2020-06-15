@@ -65,3 +65,7 @@ Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti c
 
 ![Alt Text](classdiagram.PNG) 
 
+![Alt Text](ranking.PNG) 
+![Alt Text](getstatsonobject.PNG) 
+![Alt Text](getdata.PNG) 
+![Alt Text](getBracket.PNG)
