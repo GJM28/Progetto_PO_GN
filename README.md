@@ -67,10 +67,17 @@ Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti c
 ![Alt Text](classdiagram.PNG) 
 ## Sequence Diagram
 * **GET/ranking**
+
 ![Alt Text](ranking.png) 
+
 * **GET/getStatsOnObject**
+
 ![Alt Text](getstatsonobject.png) 
+
 * **GET/getData**
+
 ![Alt Text](getdata.PNG) 
+
 * **POST/getBracket**
+
 ![Alt Text](getBracket.png)
