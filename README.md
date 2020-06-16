@@ -45,7 +45,7 @@ In questo caso le statistiche riguardano:
 </p>
 
 Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti che hanno più follower o ,viceversa, gli ultimi 10 utenti che hanno meno follower. Più precisamente, in questa rotta si deve specificare attraverso il campo field, che classifica si vuole andare a vedere. In caso di campo errato o nullo viene restituito un errore. 
-<table>
+<table class="center">
   <tr>
     <td><img src="get_top10.PNG"></td>
     <td><img src="get_last10.PNG"></td>
@@ -63,7 +63,7 @@ L'ultima rotta che analizziamo e una chiamata POST che permette di ottenere nome
 
 **Esempi di filtri della rotta getBrackets** 
 
-<table>
+<table class="center">
   <tr>
     <td><img src="gt.PNG"></td>
   </tr>
