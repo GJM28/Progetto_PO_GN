@@ -56,8 +56,9 @@ Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti c
   </tr>
  </table>
  
- 
+L'ultima rotta che analizziamo e una chiamata POST che permette di ottenere nome utente Twitter e numero di follower che rientrano su una fascia impostata dall'utente. Infatti, attraverso una RequestBody si può decidere su quale campo applicare il filtro e il filtro stesso. Ovviamente se si sbaglia a digitare il filtro o il campo, il programma restituirà un messaggio di errore. Qua sotto sono riportate immagini riguardanti un esempio di chiamata usando questa rotta ed esempi di filtro. Nel nostro caso siamo andati ad applicare i filtri solamente su un'unico campo, tuttavia se si vuole cambiare campo la logica rimane la stessa.   
 ![Alt Text](getbrakets.PNG)
+Il primo filtro che vediamo, permette di andare a visualizzare delle frequenze per fasce di follower. Ovvero, l'utente dovrà impostare un numero massimo ed un numero minimo che saranno i limiti   
 ![Alt Text](gt.PNG)
 ![Alt Text](bt.PNG)
 ![Alt Text](lt.PNG)
