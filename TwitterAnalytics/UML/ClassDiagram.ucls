@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="com.project.OOP" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="179" width="211" x="43" y="47"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="2" language="java" name="com.project.OOP.AppTwitterApplication" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/AppTwitterApplication.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="109" width="148" x="80" y="101"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="3" language="java" name="com.project.OOP.controller" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/controller" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="288" width="419" x="364" y="41"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="4" language="java" name="com.project.OOP.controller.ControllerTwitter" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/controller/ControllerTwitter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="575" y="197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="5" language="java" name="com.project.OOP.errors" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/errors" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="280" width="303" x="977" y="81"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="6" language="java" name="com.project.OOP.errors.CommandNotFoundException" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/errors/CommandNotFoundException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1117" y="193"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.project.OOP.errors.FieldException" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/errors/FieldException.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1118" y="296"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="8" language="java" name="com.project.OOP.model" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/model" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="392" width="600" x="599" y="403"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="9" language="java" name="com.project.OOP.model.Friend" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/model/Friend.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1060" y="593"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.project.OOP.model.FriendsCollection" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/model/FriendsCollection.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="771" y="626"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <package id="11" language="java" name="com.project.OOP.utils" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/utils" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="396" width="492" x="10" y="391"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <interface id="12" language="java" name="com.project.OOP.utils.Filter" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/utils/Filter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="367" y="620"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="com.project.OOP.utils.FilterUtils" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/utils/FilterUtils.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="329" y="724"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="com.project.OOP.utils.JsonDownload" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/utils/JsonDownload.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="123" y="510"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="com.project.OOP.utils.JSONParse" project="TwitterAnalytics" 
+    file="/TwitterAnalytics/src/main/java/com/project/OOP/utils/JSONParse.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="367" y="515"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <dependency id="16">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <dependency id="17">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </dependency>  
+  <dependency id="18">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <dependency id="19">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <realization id="20">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <association id="21">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="22" name="friends">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="23" minimum="0" maximum="2147483647">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="24">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </dependency>  
+  <dependency id="25">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="26">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="27" name="utils">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </attribute>      
+      <multiplicity id="28" minimum="0" maximum="1">        
+        <position height="0" width="0" x="0" y="0"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="29">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
