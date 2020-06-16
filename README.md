@@ -62,19 +62,15 @@ L'ultima rotta che analizziamo e una chiamata POST che permette di ottenere nome
 </p>
 
 **Esempi di filtri della rotta getBrackets** 
-
-<table class="center">
-  <tr>
-    <td><img src="gt.PNG"></td>
-  </tr>
-  <tr>
-    <td><img src="bt.PNG"></td>
-  </tr>
-  <tr>
-    <td><img src="lt.PNG"></td> 
-  </tr>
- </table>
-
+<p align="center">
+  <img src="gt.PNG">
+</p>
+<p align="center">
+  <img src="bt.PNG">
+</p>
+<p align="center">
+  <img src="lt.PNG">
+</p>
  
 
 ## UML
