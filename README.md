@@ -58,6 +58,9 @@ Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti c
  
  
 ![Alt Text](getbrakets.PNG)
+![Alt Text](gt.PNG)
+![Alt Text](bt.PNG)
+![Alt Text](lt.PNG)
  
 
 ## UML
