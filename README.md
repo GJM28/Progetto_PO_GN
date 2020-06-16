@@ -58,7 +58,7 @@ Con questa rotta l'utente può visualizzare una classifica dei primi 10 utenti c
  
 L'ultima rotta che analizziamo e una chiamata POST che permette di ottenere nome utente Twitter e numero di follower che rientrano su una fascia impostata dall'utente. Infatti, attraverso una RequestBody si può decidere su quale campo applicare il filtro e il filtro stesso. Ovviamente se si sbaglia a digitare il filtro o il campo, il programma restituirà un messaggio di errore. Qua sotto sono riportate immagini riguardanti un esempio di chiamata usando questa rotta ed esempi di filtro. Nel nostro caso siamo andati ad applicare i filtri solamente su un'unico campo, tuttavia se si vuole cambiare campo la logica rimane la stessa.  
 <p align="center">
-![Alt Text](getbrakets.PNG)
+  <img src="getbrakets.PNG">
 </p>
 **Esempi di filtri della rotta getBrackets** 
 <p align="center">
