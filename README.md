@@ -61,7 +61,7 @@ L'ultima rotta che analizziamo e una chiamata POST che permette di ottenere nome
   <img src="getbrakets.PNG">
 </p>
 
-**Esempi di filtri della rotta getBrackets** 
+**Esempi di filtri della rotta getBrackets:** 
 <p align="center">
   <img src="gt.PNG">
 </p>
