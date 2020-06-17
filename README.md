@@ -94,3 +94,41 @@ L'ultima rotta che analizziamo e una chiamata POST che permette di ottenere nome
 * **POST/getBracket**
 
 ![Alt Text](getBracket.png)
+
+
+## Riflessioni sull'approccio al progetto
+*“In online social networks, the audience size commanded by an organization or an individual is a critical measure of that entity’s popularity and this measure has important economic and/or political implications. Such efforts to measure popularity of users or exploit knowledge about their audience are complicated by the presence of fake profiles onthese networks.”*
+
+Con queste parole si apre l’abstract dell’articolo di ricerca “ Profile characteristics of fakeTwitter accounts” a cura di Supraja Gurajala, Joshua S White, Brian Hudson,Brian R Voter and Jeanna N Matthews, pubblicato dal “Big Data & Society” journal. 
+Abbiamo colto l’occasione per poter studiare ed iniziare ad implementare questo progetto con alcuni filtri ed alcune combinazioni di filtri finalizzate alla possibile individuazione di profili potenzialmente fake, quelli che un tempo su Twitter venivano chiamati “eggheads”, soprannome legato all’immagine del profilo assegnata di default da Twitter ad ogni profilo, che solitamente un fake non badava a sostituire o personalizzare. 
+Abbiamo infatti trovato spunto con questo progetto, per un lavoro di approfondimento, o forse, vista la pregressa esperienza praticamente nulla, di conoscenza dell’ interessante mondo dei “Big Data” e di tutto ciò che concerne APi, dati, analisi degli stessi etc.
+Questo progetto per noi non si conclude con la sua “consegna”, ma abbiamo intenzione di proseguire ed approfondire gli argomenti di cui sopra. 
+
+Le variabili per scovare un possibile “fake”, sono molte, come analizzate appunto nell’articolo sopracitato (ed in seguito linkato); una forte rilevanza hanno infatti, ovviamente, i nomi di questi profili, nella ricerca studiati e collezionati tramite l’entropia di Shannon, ma anche gli orari ed i giorni di pubblicazione, per continuare con la qualità e la quantità dei tweet pubblicati. 
+
+Quello di cui ci siamo occupati e di cui ci continueremo ad occupare invece in questo programma, sta nella qualità dei follower di un determinato account, ( in questo specifico caso, dei follower dei friends di un dato account). Elementi discriminanti, partendo dagli studi della ricerca e da alcune altre nostre ricerche, sono stati:
+* Il numero di follower (profili filtrati se numero di follower <= 5)
+* Deviazione standard
+* Following to follow ratio (da implementare)
+* Immagine del profilo preimpostata (eggheads) (da implementare)
+* Nessuna biografia (da implementare)
+
+È evidente che un profilo che abbia un numero di follower inferiore o uguale a 5 possa dare un forte sentore di “profilo fake”, per questo abbiamo pensato che fosse la prima delle nostre discriminanti per un egghead.
+Anche il “following to follow” ratio è indicativo di un potenziale profilo fake: infatti un profilo che segua molti altri profili ma che a sua volta abbia pochi follower è potenzialmente un egghead. Stando alla ricerca un valore soglia di questa ratio è “30”, al momento non abbiamo ancora implementato questo filtro, più che per motivi di tempo, per il nostro desiderio di approfondire maggiormente questa cifra, dal momento che nel caso di profili “atipici” come quelli di persone famose, questo valore sarebbe sicuramente “anomalo”.
+Una forte deviazione standard invece, presa singolarmente, potrebbe essere fuorviante, infatti il suo valore “anomalo” potrebbe, come sopra, essere dato da un account di una “celebrità”, che per ovvi motivi potrebbe avere un variegato tipo di follower (seguaci molto seguiti (altre celebrità) e seguaci poco seguiti). Potrebbe invece essere utile in combinazione con gli altri filtri.
+Abbiamo inoltre intenzione di implementare un filtro che paragoni l’immagine standard che Twitter assegna ai nuovi profili (https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png) e la biografia vuota, che un profilo fake tende a non modificare, che sarebbe dunque uguale a “ “ .
+
+Preso singolarmente nessuno di questi indicatori può ovviamente dare alcuna sentenza, mentre una loro combinazione potrebbe essere invece piuttosto attendibile.
+Questo progetto è appunto in divenire, sarà la nostra “cavia” per sperimentare questo interessante ambito dell’informatica, oltre all’implementazione dei vari filtri elencati sopra, studieremo la loro interazione per poter ottenere un risultato attendibile. Cercheremo anche di valutare anche i vari profili “speciali” come appunto quelli di personaggi noti.
+
+**Bibliografia**
+
+Profile characteristics of fakeTwitter accounts: https://journals.sagepub.com/doi/pdf/10.1177/2053951716674236
+
+
+## Software utilizzati
+* **Eclipse** 
+* **Maven** 
+* **Spring Boot** 
+
+
