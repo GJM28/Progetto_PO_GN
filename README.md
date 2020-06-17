@@ -121,9 +121,11 @@ Abbiamo inoltre intenzione di implementare un filtro che paragoni l’immagine s
 Preso singolarmente nessuno di questi indicatori può ovviamente dare alcuna sentenza, mentre una loro combinazione potrebbe essere invece piuttosto attendibile.
 Questo progetto è appunto in divenire, sarà la nostra “cavia” per sperimentare questo interessante ambito dell’informatica, oltre all’implementazione dei vari filtri elencati sopra, studieremo la loro interazione per poter ottenere un risultato attendibile. Cercheremo anche di valutare anche i vari profili “speciali” come appunto quelli di personaggi noti.
 
-**Bibliografia:**
+## Bibliografia:
+* *Profile characteristics of fakeTwitter accounts: https://journals.sagepub.com/doi/pdf/10.1177/2053951716674236*
+* *https://stackoverflow.com*
+* *https://developer.twitter.com/en*
 
-Profile characteristics of fakeTwitter accounts: https://journals.sagepub.com/doi/pdf/10.1177/2053951716674236
 
 
 ## Software utilizzati
